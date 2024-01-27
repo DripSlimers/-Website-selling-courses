@@ -1,0 +1,60 @@
+// main: ../style.less
+
+.header {
+	padding: 0 14rem;
+	display: flex;
+	height: @headerHeight;
+	width: 100%;
+
+	justify-content: space-between;
+	align-items: center;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: @headerIndex;
+
+	background-color: white;
+}
+
+.header__title {
+	font-weight: 700;
+	font-size: 2.8rem;
+	line-height: 3.2rem;
+}
+
+.header__right {
+	display: flex;
+}
+
+.header__nav {
+	margin-right: 4rem;
+}
+
+.header__call {
+	display: flex;
+	flex-direction: column;
+}
+
+.header__label {
+	font-size: 1.3rem;
+	font-weight: 700;
+	line-height: 1.8rem;
+	color: rgba(0, 0, 0, .7);
+}
+
+.header__tel {
+	font-size: 1.8rem;
+	font-weight: 800;
+	line-height: 2.4rem;
+	color: @black;
+
+	text-wrap: nowrap;
+
+	transition: transform .2s linear;
+
+	&:hover {
+
+		transform: scale(110%);
+	}
+}

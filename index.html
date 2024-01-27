@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OnePageSite3</title>
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<header class="header">
+		<div class="header__left">
+			<h2 class="header__title">Английский язык</h2>
+		</div>
+
+		<div class="header__right">
+			<ul class="nav header__nav">
+				<a href="#" class="nav__link">О компании</a>
+				<a href="#" class="nav__link">Новости</a>
+				<a href="#" class="nav__link">Помощь</a>
+				<a href="#" class="nav__link">Отзывы</a>
+				<a href="#" class="nav__link">Контакты</a>
+			</ul>
+
+			<div class="header__call">
+				<div class="header__label">Звонок бесплатный</div>
+				<a href="tel:+74951234567" class="header__tel">+7 (495) 123-45-67</a>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="hero">
+			<span class="overlay hero__overlay"></span>
+			<div class="container container--sides">
+				<div class="hero__wrapper">
+				
+					<div class="hero__text">
+						<h1 class="hero__title">Курсы английского языка</h1>
+						<h3 class="hero__subtitle">Станьте сильнее и увереннее всего за 7 дней прохождения курса онлайн</h3>
+					</div>
+
+
+					<form action="/" class="hero__form form">
+						<label for="formName" class="form__title">Запишись на первый бесплатный урок прямо сейчас</label>
+
+						<input class="form__input form__name" type="text" id="formName" name="formName" placeholder="Ваше имя">
+						<input class="form__input form__tel" type="tel" id="formеTel" name="formеTel" placeholder="Ваш телефон">
+						<input class="form__input form__email" type="email" id="formеEmail" name="formеEmail" placeholder="Электронная почта">
+						
+						<button type="submit" class="button form__button">Оставить заявку</button>
+
+						<label class="form__label">+ Скидка 20% на покупку любого курса</label>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section class="courses">
+			<div class="container">
+				<div class="courses__text">
+					<h3 class="courses__title">Наши курсы</h3>
+					<h4 class="courses__subtitle">Мы подготовили для вас интересные обучающие программы от лучших преподавателей</h4>
+				</div>
+
+				<div class="courses__wrapper">
+					<div class="courses__block">
+						<img src="./img/course-image1.png" alt="course1" class="courses__image">
+						<!-- <span class="courses__name">Английский для взрослых</span> -->
+					</div>
+					
+					<div class="courses__block">
+						<img src="./img/course-image2.png" alt="course2" class="courses__image">
+						<!-- <span class="courses__name">Английский для детей</span> -->
+					</div>
+
+					<div class="courses__block">
+						<img src="./img/course-image3.png" alt="course3" class="courses__image">
+						<!-- <span class="courses__name">Бизнес английский</span> -->
+					</div>
+
+					<div class="courses__block">
+						
+						<img src="./img/course-image4.png" alt="course3" class="courses__image">
+						<!-- <span class="courses__name">Английский для туризма</span> -->
+					</div>
+
+					<div class="courses__block">
+						<img src="./img/course-image5.png" alt="course4" class="courses__image">
+						<!-- <span class="courses__name">Подготовка к экзаменам</span> -->
+					</div>
+
+					<div class="courses__block">
+						<img src="./img/course-image6.png" alt="course5" class="courses__image">
+						<!-- <span class="courses__name">Профильный английский</span> -->
+					</div>		
+
+				</div>
+			</div>
+		</section>
+		
+		<section class="features">
+			<span class="overlay features__overlay"></span>
+			<div class="container">
+				<div class="features__wrapper">
+
+					<div class="features__block">
+						<div class="features__pic"><img src="./img/icons/percent.svg" class="features__icon" alt="percent-icon"></div>
+						<span class="features__stat">5+</span>
+						<span class="features__desk">Работаем более 5 лет</span>
+					</div>
+
+					<div class="features__block">
+						<div class="features__pic"><img src="../img/icons/percent.svg" class="features__icon" alt="percent-icon"></div>
+						<span class="features__stat">400+</span>
+						<span class="features__desk">Постоянные ученики 400+ человек</span>
+					</div>
+
+					<div class="features__block">
+						<div class="features__pic"><img src="../img/icons/percent.svg" class="features__icon" alt="percent-icon"></div>
+						<span class="features__stat">2500+</span>
+						<span class="features__desk">Не менее 2500 уроков в месяц</span>
+					</div>
+
+					<div class="features__block">
+						<div class="features__pic"><img src="../img/icons/percent.svg" class="features__icon" alt="percent-icon"></div>
+						<span class="features__stat">90%</span>
+						<span class="features__desk">После пробного урока 90% учеников остаются с нами</span>
+					</div>
+					
+				</div> <!-- /features__wrapper -->
+			</div> <!-- /container -->
+		</section>
+
+		<section class="team">
+			<div class="container">
+				<div class="team__text">
+					<span class="team__label">Команда</span>
+					<h3 class="team__title">Наши учителя</h3>
+					<h4 class="team__subtitle">Подберём подходящего педагога для каждого ученика</h4>
+				</div>
+
+				<div class="team__wrapper">
+					<div class="team__block">
+						<img src="./img/team-image1.png" alt="team-image1" class="team__image">
+						<span class="team__name">Имя Фамилия</span>
+						<span class="team__spec">Магистр иностранной филологии</span>
+					</div>
+					<div class="team__block">
+						<img src="./img/team-image2.png" alt="team-image2" class="team__image">
+						<span class="team__name">Имя Фамилия</span>
+						<span class="team__spec">Магистр иностранной филологии</span>
+					</div>
+					<div class="team__block">
+						<img src="./img/team-image3.png" alt="team-image3" class="team__image">
+						<span class="team__name">Имя Фамилия</span>
+						<span class="team__spec">Магистр иностранной филологии</span>
+					</div>
+					<div class="team__block">
+						<img src="./img/team-image4.png" alt="team-image4" class="team__image">
+						<span class="team__name">Имя Фамилия</span>
+						<span class="team__spec">Магистр иностранной филологии</span>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="certificates">
+			<div class="container container--sides">
+				<h3 class="certificates__title">Сертификаты</h3>
+
+				<div class="certificates__wrapper">
+					<img src="./img/certificate1.png" alt="certificate1" class="certificates__image">
+					<img src="./img/certificate2.png" alt="certificate2" class="certificates__image">
+					<img src="./img/certificate3.png" alt="certificate3" class="certificates__image">
+					<img src="./img/certificate4.png" alt="certificate4" class="certificates__image">
+				</div>
+			</div>
+		</section>
+
+		<section class="quiz">
+			<!-- <img src="./img/quiz-image.jpg" alt="quiz-image" class="quiz__image"> -->
+
+			<span class="overlay quiz__overlay"></span>
+
+			<div class="container container--sides">
+				<div class="quiz__wrapper">
+					<h3 class="quiz__title">Запишитесь на бесплатный урок</h3>
+					<h4 class="quiz__subtitle">Заполните форму ниже для прохождения 1-го бесплатного урока. Администратор свяжется с вами для согласования времени.</h4>
+
+					<form action="/" class="quiz__form form">
+
+						<input class="form__input form__input--quiz form__name" type="text" id="formName" name="formName" placeholder="Ваше имя">
+						<input class="form__input form__input--quiz form__tel" type="tel" id="formеTel" name="formеTel" placeholder="Ваш телефон">
+						<input class="form__input form__input--quiz form__email" type="email" id="formеEmail" name="formеEmail" placeholder="Электронная почта">
+						
+						<button type="submit" class="button form__button form__button--quiz">Оставить заявку</button>
+
+						<label class="form__label form__label--quiz">Оставляя заявку, вы соглашаетесь на обработку персональных данных и с условиями бронирования счёта</label>
+					</form>
+
+					
+
+				</div>
+			</div>
+		</section>
+
+		<section class="reviews">
+			<div class="reviews__wrapper">
+				<div class="slider">
+					<div class="slider__wrapper">
+
+						<button class="button slider__button slider__button--prev"><img src="./img/icons/arrow-left.svg" alt="arrow-prev" class="slider__image"></button>
+
+						<div class="slider__inner">						
+
+							<div class="comment">
+								<img src="./img/comment-avatar.png" alt="comment" class="comment__image">
+
+								<span class="comment__text">Работа с сервисом приносит радость, потому что высочайший профессионализм, удобство, оперативность, и просто приятные люди!</span>
+
+								<span class="comment__name">Александра Селезнева</span>
+
+								<span class="comment__spec">фотограф</span>
+							</div>
+
+							<div class="slider__flex">
+
+								<div class="slider__pagination">
+									
+									<div class="slider__block">
+										<label for="radio1" id="sliderBar" class="slider__bar slider__bar--active"></label>
+										<input class="slider__input" type="radio" name="radio" id="radio1" checked>
+									</div>
+
+									<div class="slider__block">
+										<label for="radio2" class="slider__bar"></label>
+										<input class="slider__input" type="radio" name="radio" id="radio2">
+									</div>
+									
+									<div class="slider__block">
+										<label for="radio3" class="slider__bar"></label>
+										<input class="slider__input" type="radio" name="radio" id="radio3">
+									</div>
+									
+									<div class="slider__block">
+										<label for="radio4" class="slider__bar"></label>
+										<input class="slider__input" type="radio" name="radio" id="radio4">
+									</div>
+
+									<div class="slider__block">
+										<label for="radio5" class="slider__bar"></label>
+										<input class="slider__input" type="radio" name="radio" id="radio5">
+									</div>
+
+								</div>
+							</div>						
+						</div>
+
+						<button class="button slider__button slider__button--next"><img src="./img/icons/arrow-right.svg" alt="arrow-next" class="slider__image"></button>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="videos">
+			<div class="container container--sides">
+				<div class="videos__wrapper">
+					<div class="videos__block">
+						<button class="button videos__button">
+							<img src="/img/icons/play-icon.svg" alt="play" class="videos__image">
+						</button>
+
+						<video src="" class="videos__video" poster="/img/video-preview1.png"></video>
+					</div>
+
+					<div class="videos__block">
+						<button class="button videos__button">
+							<img src="/img/icons/play-icon.svg" alt="play" class="videos__image">
+						</button>
+
+						<video src="" class="videos__video" poster="/img/video-preview2.png"></video>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="article">
+			<span class="overlay article__overlay"></span>
+			<div class="container">
+				<div class="article__wrapper">
+					<h3 class="article__title">Курсы английского языка онлайн</h3>
+					<p class="article__text">
+						Ваш надежный помощник в покорении английской лексики и грамматики! Если Вы уже давно и долго пытаетесь справиться с английским, но Ваши попытки так и не увенчались успехом – тогда наши курсы ангдийского языка онлайн именно то, что Вам нужно! <br>
+						Если Вы современный молодой человек или девушка, ученик школы, студент университета, домохозяйка или бизнесмен – то Вы безусловно знаете, как важна каждая минута и стараетесь экономить свое время. Наша школа придет в этом Вам на помощь! Курсы английского языка онлайн эффективные в любое время в любом месте. Вы можете заниматься дома, на работе, в командировке или отпуске. Вам нужно всего лишь интернет и устройство: компьютер, планшет или даже телефон. 
+						<br>
+						Весь учебный материал у нас электронный, который можно загрузить хоть на все устройства, а при желании еще и распечатать.
+					</p>
+
+					<button class="article__button button button--sm">Подробнее</button>
+				</div>
+			</div>
+		</section>
+
+
+
+	</main>
+			
+	<footer class="footer">
+		<div class="container container--sides">
+			<div class="footer__wrapper">
+				<div class="socials">
+					<ul class="socials__list">
+						<li class="socials__item">
+							<img src="./img/icons/facebook.svg" alt="facebook" class="socials__image">
+						</li>
+						<li class="socials__item">
+							<img src="./img/icons/inst.svg" alt="facebook" class="socials__image">
+						</li>
+						<li class="socials__item">
+							<img src="./img/icons/twitter.svg" alt="facebook" class="socials__image">
+						</li>
+						<li class="socials__item">
+							<img src="./img/icons/vk.svg" alt="facebook" class="socials__image">
+						</li>
+					</ul>
+				</div>
+			
+
+				<ul class="nav footer__nav">
+					<a href="#" class="nav__link footer__link">О компании</a>
+					<a href="#" class="nav__link footer__link">Новости</a>
+					<a href="#" class="nav__link footer__link">Помощь</a>
+					<a href="#" class="nav__link footer__link">Контакты</a>
+				</ul>
+
+				<label class="rights">
+					© 2020 Английский язык
+				</label>
+				
+			</div>
+		</div>
+		
+	</footer>
+</body>
+</html>

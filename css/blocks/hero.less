@@ -1,0 +1,51 @@
+// main: ../style.less
+
+.hero {
+	width: 100%;
+	height: 100%;
+	
+	background: url(../img/hero-image.png) no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+	position: relative;
+}
+
+.hero__overlay {
+	position: absolute;
+}
+
+.hero__wrapper {	
+	display: flex;
+
+	height: 80rem;
+
+	position: relative;
+
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero__text {
+	display: flex;
+	flex-direction: column;
+
+	width: 40rem;
+}
+
+.hero__title {
+	font-size: 6.4rem;
+	font-weight: 700;
+	line-height: 6.8rem;
+	color: @white;
+
+	margin-bottom: 3rem;
+}
+
+.hero__subtitle {
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 3.12rem;
+	color: @white;
+
+}

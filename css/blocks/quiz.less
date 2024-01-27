@@ -1,0 +1,60 @@
+// main: ../style.less
+
+.quiz {
+	// width: 100%;
+	// height: 100%;
+
+	background: url("../img/quiz-image.jpg") center no-repeat;
+	background-size: cover;
+
+	position: relative;
+}
+
+.quiz__overlay {
+	position: absolute;
+}
+
+.quiz__wrapper {
+	padding: 10rem 0;
+
+	display: flex;
+	flex-direction: column;
+
+	position: relative;
+	align-items: center;
+}
+
+.quiz__form {
+	padding: 0;
+	background: none;
+
+	width: 54rem;
+}
+
+.quiz__title {
+	max-width: 70rem;
+
+	font-size: 4.8rem;
+	font-weight: 700;
+	line-height: 5.2rem;
+
+	text-align: center;
+
+	margin-bottom: 2rem;
+
+	color: @white;
+}
+.quiz__subtitle {
+	max-width: 54rem;
+
+	font-size: 1.8rem;
+	font-weight: 500;
+	line-height: 2.4rem;
+
+	text-align: center;
+
+	color: rgba(@white, .8);
+
+	margin-bottom: 4rem;
+}
+
